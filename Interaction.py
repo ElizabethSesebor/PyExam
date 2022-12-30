@@ -1,0 +1,8 @@
+print('Hello! Welcme to Alayefa Stores.')
+name= input('What is your name? ')
+print('Good to have you here ' + name)
+print('We sell lingeries, night wears,lounge wears, and Bathrobes')
+print(input('Which do you want to purchase? '))
+price_range= ('2k, 3k, 4k, 10k')
+print(input('kindly choose which price range: '  +  price_range))
+print('We will send you pictures of items in that range')
