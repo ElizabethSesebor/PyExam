@@ -1,0 +1,10 @@
+[user]
+	name = Elizabeth Sesebor
+	email = elizabethsesebor169@gmail.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	editor = \"C:\\Users\\Layefa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
